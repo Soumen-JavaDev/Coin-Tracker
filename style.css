@@ -1,95 +1,163 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
-    padding: 0;
-    margin: 0;
-    background-color:#1a1a1c;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    box-sizing: border-box;
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #1a1a1c;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
 
 }
-#header{
-    padding: 40px 40px;
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
+
+#header {
+  padding: 40px 40px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
 }
-#search-box{
-    width: 60%;
-    padding: 15px;
-    color: white;
-    background-color: #1A1A1C;
-    border: 1px solid white;
+
+#search-box {
+  width: 60%;
+  padding: 15px;
+  color: white;
+  background-color: #1A1A1C;
+  border: 1px solid white;
 }
-.btn{
-    display: flex;
-    flex-direction:row;
-    gap: 15px;
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
 }
-button{
-    padding: 15px;
-    color: white;
-    background-color: #1A1A1C;
-    border: 1px solid white;
-    width: 250px;
-    cursor: pointer;
-   
-   
+
+button {
+  padding: 15px;
+  color: white;
+  background-color: #1A1A1C;
+  border: 1px solid white;
+  width: 250px;
+  cursor: pointer;
+
+
 }
 
 
-.contener{
-    display: flex;
-    padding: 0px 40px;
-    
-    img{
-        width: 45px;
-        
-    }
+.contener {
+  display: flex;
+  padding: 0px 40px;
 }
-table{
-    width: 100%;
+
+table {
+  width: 100%;
 }
-tbody{
-    width: 100%;
-    
-    
+
+tbody {
+  width: 100%;
+
+
 }
-tr{
-    
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0px;
-    border-bottom: 1px solid white;
-   
+
+tr {
+
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  border-bottom: 1px solid white;
+
 }
 
 td:nth-child(1) {
   width: 20%;
 }
+
 td:nth-child(2) {
   width: 10%;
 }
+
 td:nth-child(3) {
   width: 20%;
 }
+
 td:nth-child(4) {
   width: 20%;
 }
+
 td:nth-child(5) {
   width: 10%;
 }
+
 td:nth-child(6) {
   width: 20%;
 }
 
 
-.coin-img{
-    display: flex;
+.coin-img {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+
+/* Medium Devices (Tablets) */
+@media screen and (max-width: 768px) {
+  #header {
+    flex-direction: column;
+    align-items:center;
+    gap: 20px;
+  }
+
+  .btn {
+    flex-direction: column;
+    gap: 10px;
+    
+  }
+
+  tr {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+  }
+
+  td {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+}
+
+/* Small Devices (Mobile Phones) */
+@media screen and (max-width: 480px) {
+  #header {
+    padding: 20px;
     align-items: center;
-    gap: 5px;
+  }
+
+  #search-box {
+    padding: 12px;
+    width: 80%;
+  }
+
+  button {
+    padding: 12px;
+    font-size: 14px;
+    
+  }
+
+  tr {
+    padding: 15px 0;
+    
+  }
+
+  .coin-img {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  td {
+    font-size: 14px;
+  }
 }

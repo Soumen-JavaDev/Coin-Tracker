@@ -1,10 +1,10 @@
 # 🚀 Coin Tracker – Crypto Market Data Project
 
 ## 🔗 Live Demo
-[Click Here to View the Project](https://your-deployment-link.com)
+[Click Here to View the Project](https://stalwart-faun-6cfc72.netlify.app/)
 
 ## 🎨 Design Reference
-[Figma Design](#)
+[Figma Design](https://www.figma.com/file/KakMh6wbYt0kgeUpp6HoPZ/Untitled?node-id=0%3A1&t=MOtLKh9GMDGIKHJw-1)
 
 ---
 
